@@ -1,76 +1,24 @@
-# Big Game Survey 
+# Apuração de CEP
 [![NPM](https://img.shields.io/npm/l/react)](https://github.com/rwoodcosta01-a11y/estudo_ryan/blob/main/LICENSE) 
 
 # Sobre o projeto
 
 Essa aplicação full stack durante o treinamento de desenvolver softwares da **ValeSafe**
 
-A aplicação consiste em uma pesquisa sobre a atual cotação do dollar americano, onde os dados são coletados no site viacep, e depois a cotação é listada no app web, que também apresenta-o em forma de tabelada.
+A aplicação consiste em uma pesquisa sobre um cep informado, onde os dados são coletados no site viacep, e depois os dados referentes ao cep citado são listados, que também sõ apresentados em forma de tabela.
 
-## Layout mobile
-![Mobile 1](https://github.com/acenelio/assets/raw/main/sds1/mobile1.png) ![Mobile 2](https://github.com/acenelio/assets/raw/main/sds1/mobile2.png)
+## Código após efetuar todo processo de busca de dados
 
-## Layout web
-![Web 1](https://github.com/acenelio/assets/raw/main/sds1/web1.png)
+<img width="655" height="515" alt="Image" src="https://github.com/user-attachments/assets/eb53a613-037f-4e9f-9a7a-994e29119f6d" />
 
-![Web 2](https://github.com/acenelio/assets/raw/main/sds1/web2.png)
+## Layout Inicial
 
-## Modelo conceitual
-![Modelo Conceitual](https://github.com/acenelio/assets/raw/main/sds1/modelo-conceitual.png)
+<img width="300" height="851" alt="Image" src="https://github.com/user-attachments/assets/f9da0991-fe22-4181-b126-ce6d730a27dd" />
 
 # Tecnologias utilizadas
 ## Back end
 - Java
-- Spring Boot
-- JPA / Hibernate
+
 - Maven
 ## Front end
 - HTML / CSS / JS / TypeScript
-- ReactJS
-- React Native
-- Apex Charts
-- Expo
-## Implantação em produção
-- Back end: Heroku
-- Front end web: Netlify
-- Banco de dados: Postgresql
-
-# Como executar o projeto
-
-## Back end
-Pré-requisitos: Java 11
-
-```bash
-# clonar repositório
-git clone https://github.com/devsuperior/sds1-wmazoni
-
-# entrar na pasta do projeto back end
-cd backend
-
-# executar o projeto
-./mvnw spring-boot:run
-```
-
-## Front end web
-Pré-requisitos: npm / yarn
-
-```bash
-# clonar repositório
-git clone https://github.com/devsuperior/sds1-wmazoni
-
-# entrar na pasta do projeto front end web
-cd front-web
-
-# instalar dependências
-yarn install
-
-# executar o projeto
-yarn start
-```
-
-# Autor
-
-Wellington Mazoni de Andrade
-
-https://www.linkedin.com/in/wmazoni
-
